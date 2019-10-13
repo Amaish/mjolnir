@@ -1,0 +1,173 @@
+.Table {
+    display: table;
+    margin: auto;
+}
+
+.Title {
+    display: table-caption;
+    text-align: center;
+    font-weight: bold;
+    font-size: larger;
+}
+
+.Heading {
+    display: table-row;
+    font-weight: bold;
+    text-align: center;
+}
+
+.Row {
+    display: inline;
+}
+
+.Cell {
+    display: table-cell;
+    border: solid;
+    border-width: thin;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.hover {
+    border: 3px dashed red;
+}
+
+.sublist {
+    display: table-cell;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.tab {
+    overflow: hidden;
+    background-color: #f8f8f8;
+    margin: auto;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    -moz-border-top-radius: 4px;
+    -webkit-border-top-radius: 4px;
+}
+
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+.tab button:hover {
+    background-color: #ddd;
+}
+
+.tab button.active {
+    background-color: #ccc;
+}
+
+.tabcontent {
+    display: none;
+    border-top: none;
+    margin: auto;
+    width: 33.33333333%;
+}
+
+body {
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ccc;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #818181;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #ddd;
+    color: #f1f1f1;
+    width: auto;
+    height: 48px;
+}
+
+.sidenav {
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #ccc;
+    overflow-x: hidden;
+}
+
+.sidenav a {
+    padding: 6px 16px 6px 16px;
+    text-decoration: none;
+    color: #818181;
+    display: block;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.main {
+    margin-left: 160px;
+    /* Same as the width of the sidenav */
+    background-color: inherit;
+}
+
+.maincontent {
+    margin: 8px;
+    background-color: inherit;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+    .sidenav a {
+        font-size: 18px;
+    }
+}
+
+a,
+a:visited,
+a:hover,
+a:active {
+    text-decoration: none !important;
+}
+
+.center {
+    display: block;
+    margin-top: 48px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15%;
+}
+
+.centertab {
+    padding-left: 30%;
+    padding-top: 10%;
+    padding-right: 30%;
+}

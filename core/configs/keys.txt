@@ -1,0 +1,11 @@
+#prod credentials
+$username = amaina
+$apiKey = 75c2402ce9d4209145fba99c7d6cb44d8d7ced0451059dceb15da45bb8c2541e
+#sandbox credentials
+$username = sandbox
+$apiKey = d41b43e99f6b962582c9566f17f9ef0504c8e69aa59af25137679f27cf7ad939
+$username   = "Tellaride";
+$apikey     = "286e5b0bd13321bcfab3b3dc1587e0af3033ec6100f4e1042e305f7acd97f681";
+#wakili credentials
+$username   = "tryneglobal";
+$apikey     = "8df32bbc04f9dcf8a81811c7b4d288f940f87fe2d1ec4a75947c62f48f3050ef";

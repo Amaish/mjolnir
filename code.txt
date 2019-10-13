@@ -1,0 +1,13 @@
+<?php
+    $args = array('agent' => $agentId);
+
+    if(returnExists('building', $args) > 0){
+        $allAgentBuildings = getManyByValue('building', 'id', $args); 
+
+        foreach($allAgentBuildings as $singleBuilding){
+            $newargs = array('id' => $singleBuilding);
+?>
+
+<?php } }else{ 
+                                                    echo " <strong> You have no buildings please add by clicking on the add building button </strong>";
+                                                    } ?> 
