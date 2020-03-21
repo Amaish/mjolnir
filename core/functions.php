@@ -61,14 +61,9 @@ function getManyByValue($table, $column, $arguments)
 function sendMessage($phoneNumber,$message,$bulkSMSMode,$linkId)
 {
     require_once('smsGateway.php');
-    #$username   = "sandbox";
-    #$apikey     = "d41b43e99f6b962582c9566f17f9ef0504c8e69aa59af25137679f27cf7ad939";
-    // $username = "amaina";
-    // $apikey = "75c2402ce9d4209145fba99c7d6cb44d8d7ced0451059dceb15da45bb8c2541e";
-    // $from = "20880";
-    $username   = "tryneglobal";
-    $apikey     = "8df32bbc04f9dcf8a81811c7b4d288f940f87fe2d1ec4a75947c62f48f3050ef";
-    $from = "20437";
+    $username   = "username";
+    $apikey     = "key";
+    $from = "code";
     $recipients = $phoneNumber;
     $messageLong    = $message."\n\nNB: The information contained on this text message is for general information purposes only. Whilst we endeavour to keep the information up to date and correct, Wakili Mkononi makes no representations or warranties of any kind, express or implied about the completeness or accuracy of the information provided. We respond to all messages within 24 hours of receipt except on weekends & public holidays.";    
     $options = array('linkId' => $linkId);
