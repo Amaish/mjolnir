@@ -1,11 +1,9 @@
 <?php
 #db configs change them in prod
 $server     = "localhost";
-$username   = "maina";
-#$username   = "morgan";#server user
-$password   = "Ruth!99!";
-#$password   = "Kunguma05";#server password
-$database   = "mjolnir";
+$username   = "username";
+$password   = "password";
+$database   = "database";
 
 $conn = mysqli_connect($server, $username, $password, $database);
 
